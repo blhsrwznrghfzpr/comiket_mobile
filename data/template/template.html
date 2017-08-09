@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <title>{PAGE_TITLE}</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" href="css/themes/blue/style.css" type="text/css" media="all">
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+  </head>
+  <body>
+    <p>PCで見る場合は<a href="{HOMEPAGE_URL}">こちら</a></p>
+    <table id="sorted" class="tablesorter">
+      <thead>
+        <tr>
+          <th class="width35">ID</th>
+          <th class="width100">サークル名</th>
+          <th class="width50">場所</th>
+          <th class="width75">システム</th>
+          <th class="width50">頒布物種別</th>
+          <th class="width25">新刊・既刊</th>
+          <th class="width200">頒布物タイトル</th>
+          <th class="width75">値段</th>
+          <th class="width300">コメントなど</th>
+          <th class="width100">URL</th>
+        </tr>
+      </thead>
+      <tbody>{TBODY_CONTENT}</tbody>
+    </table>
+  </body>
+</html>

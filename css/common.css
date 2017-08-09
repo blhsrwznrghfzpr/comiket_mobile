@@ -1,0 +1,52 @@
+body {
+  font-size: 10pt;
+  font-family: Arial , "Meiryo UI" , "メイリオ" , Meiryo , "MS Pゴシック" , "MS PGothic" , sans-serif;
+  width: 1024px;
+}
+
+#sorted {
+  font-size: 10pt;
+  width: 1000px;
+  font-family: inherit;
+  table-layout: fixed;
+}
+
+#sorted tbody th {
+  word-break: break-all;
+}
+
+#sorted tbody td {
+  word-break: break-all;
+}
+
+.width25 {
+  width: 13px;
+}
+
+.width35 {
+  width: 23px;
+}
+
+.width50 {
+  width: 38px;
+}
+
+.width75 {
+  width: 63px;
+}
+
+.width100 {
+  width: 88px;
+}
+
+.width200 {
+  width: 188px;
+}
+
+.width300 {
+  width: 288px;
+}
+
+.width400 {
+  width: 388px;
+}

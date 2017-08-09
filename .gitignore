@@ -1,0 +1,8 @@
+*.tsv
+*.html
+/css/*
+/js/*
+!/data/template/template.html
+!/data/sample.tsv
+!/css/common.css
+!/js/common.js
