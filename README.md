@@ -17,7 +17,7 @@
 5. 「正常に動作しました」と表示されたら成功
 6. (Optional)出力テンプレートを変更したい場合は'data/template/template.html'を変更してください
 
-### 生成されたHTMLページの見るために必要なもの
+### 生成されたHTMLページを見るために必要なもの
 [jQuery](https://jquery.com/)と[tablesorter](https://github.com/christianbach/tablesorter)
 HTMLのheadタグ内で読み込んでるので、いい感じに指定して使ってください。
 
