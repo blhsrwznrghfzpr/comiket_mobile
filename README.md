@@ -22,6 +22,7 @@ homepage_url: PCサイトのURL
 
 ### 生成されたHTMLページを見るために必要なもの
 [jQuery](https://jquery.com/)と[tablesorter](https://github.com/christianbach/tablesorter)
+
 HTMLのheadタグ内で読み込んでるので、いい感じに指定して使ってください。
 
 初期のフォルダ構成は以下のとおりです（表示に必要なもののみ記述）
